@@ -4,15 +4,10 @@ import java.util.Arrays;
 
 public class H1_main {
     public static void main(String[] args) {
-        int[] a = {1,2,3,4};
-        int[] b = {4,3,2,1};
-        int[] c = {1,2,3};
-        int[] d = {9,3,1};
+        int[] a = {2,4,-6,8,10};
+        int[] b = {10,8,-6,4,2};
 
         System.out.println(isMirrorArray(a,b));
-        System.out.println(isMirrorArray(b,a));
-        System.out.println(isMirrorArray(a,c));
-        System.out.println(isMirrorArray(d,c));
     }
 
     public static boolean isMirrorArray(int[] a, int[] b) {
